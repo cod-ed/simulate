@@ -58,7 +58,8 @@ class Simulations with ChangeNotifier {
             ? 'assets/simulations/ToothpickPatternDark.png'
             : 'assets/simulations/ToothpickPatternLight.png',
         direct: ToothpickPattern(),
-        infoLink: 'https://en.wikipedia.org/wiki/Toothpick_sequence',
+        infoLink:
+            'https://cod-ed.github.io/simulate/simulations/algorithms/ToothpickPattern',
         fav: _favorites[0],
       ),
       SimulationCard(
@@ -108,7 +109,8 @@ class Simulations with ChangeNotifier {
             ? 'assets/simulations/LissajousCurveDark.png'
             : 'assets/simulations/LissajousCurveLight.png',
         direct: LissajousCurve(),
-        infoLink: 'https://en.wikipedia.org/wiki/Lissajous_curve',
+        infoLink:
+            'https://cod-ed.github.io/simulate/simulations/mathematics/LissajousPattern',
         fav: _favorites[5],
       ),
       SimulationCard(
@@ -138,7 +140,8 @@ class Simulations with ChangeNotifier {
             ? 'assets/simulations/MaurerRoseDark.png'
             : 'assets/simulations/MaurerRoseLight.png',
         direct: MaurerRoseCurve(),
-        infoLink: 'https://en.wikipedia.org/wiki/Maurer_rose',
+        infoLink:
+            'https://cod-ed.github.io/simulate/simulations/mathematics/MaurerRosePattern',
         fav: _favorites[8],
       ),
     ];
